@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+ @keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.bg-color{
+  animation: blink 1s infinite;
+  background-color: rgb(255, 227, 15);
+}
+.blinking-button {
+  animation: blink 1s infinite;
+  background-color: rgb(255, 255, 255);
+   width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.blinking-button1 {  
+  background-color: rgb(0, 0, 0);
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+ 
+}
+.circle{
+  color: #fff;
+}
+ 
+.divmain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+ 
+}
+.bg-color{
+  background-color: rgb(255, 0, 0);
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 1.2rem;
+}
+.bg-color1{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 1.2rem;
+}
+
+</style>
+<div class="divmain">
+  <div class="bg-color">
+    <!-- <div class="blinking-button"></div> -->
+    <div class="blinking-button1"></div>
+  <div class="circle"> Register now</div>
+  </div>
+  
+  <div class="bg-color1">
+    <div class="blinking-button"></div>
+    <!-- <div class="blinking-button1"></div> -->
+  <div class="circle"> Register now</div>
+  </div>
+</div>
+</body>
+</html>
