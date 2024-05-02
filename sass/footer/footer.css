@@ -1,0 +1,52 @@
+footer {
+  background-color: rgb(47, 102, 212);
+}
+footer h3 {
+  color: rgb(241, 211, 41);
+  font-size: 2.5rem;
+}
+footer ul {
+  margin-top: 1rem;
+  margin: 0;
+  padding: 0rem 0.5rem 0rem;
+}
+footer li {
+  color: rgb(225, 220, 220);
+  list-style: none;
+  font-size: 1.5rem;
+}
+footer li a {
+  color: rgb(225, 220, 220);
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+footer li a:hover {
+  color: rgba(255, 224, 47, 0.849);
+  padding-left: 1rem;
+  transition: all 0.5s;
+}
+footer .footer-list {
+  padding: 1.2rem;
+}
+
+.footer__main {
+  background-color: rgba(28, 55, 110, 0.88);
+}
+.footer__twocol {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__twocol p {
+  color: rgb(220, 225, 225);
+  font-size: 1.6rem;
+}
+.footer__twocol p a {
+  text-decoration: none;
+  color: rgb(78, 245, 234);
+}
+.footer__twocol p a:hover {
+  color: rgba(224, 233, 106, 0.814);
+}/*# sourceMappingURL=footer.css.map */

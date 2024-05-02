@@ -1,0 +1,55 @@
+@import "./fonts/fonts.css";
+@import "./global/global.css";
+@import "./nav/nav.css";
+@import "./footer/footer.css";
+@import "./nav/nav.css";
+
+
+
+
+
+// hero section
+//  
+
+.section{
+    &__main{
+        position: relative;
+     }
+    &__main_first{
+        margin: 5rem 0rem;
+        h3{
+        font-size: 5rem;
+        font-weight: 800 !important;
+        // font-family: "Roboto", sans-serif;
+        font-family: "Inter", sans-serif !important;
+        span{
+            color: rgb(12, 50, 154);
+        }
+      }
+      p{
+        font-size: 1.8rem;
+      }
+    
+    .list-style {
+        span{
+            font-size: 1.7rem;
+        }
+    }
+    }
+
+}  
+.list-style{
+    padding: 0;
+    margin: 0;
+   li{
+        color: rgb(47, 48, 47);
+        font-weight: 600;
+        list-style: none;
+        font-size: 1.5rem;
+        .fa-check{
+            color: green;
+            font-size: 1.5rem;
+        }
+        
+    }
+}

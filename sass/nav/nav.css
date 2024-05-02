@@ -1,0 +1,29 @@
+nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: rgba(28, 55, 110, 0.88);
+  font-size: 1.6rem;
+}
+nav img {
+  padding: 1rem;
+  width: 7rem;
+  height: auto;
+}
+nav button {
+  font-size: 2rem;
+}
+nav .dropdown-menu {
+  position: relative;
+  top: 4.4rem !important;
+  padding: 1rem;
+  background-color: rgba(28, 55, 110, 0.88) !important;
+}
+nav .dropdown-menu .dropdown-item {
+  font-size: 1.6rem;
+}
+nav li a {
+  color: rgba(255, 255, 255, 0.8156862745) !important;
+}
+nav li a:hover {
+  color: rgba(255, 243, 18, 0.828) !important;
+}/*# sourceMappingURL=nav.css.map */

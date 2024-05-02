@@ -1,0 +1,40 @@
+@import "./fonts/fonts.css";
+@import "./global/global.css";
+@import "./nav/nav.css";
+@import "./footer/footer.css";
+@import "./nav/nav.css";
+.section__main {
+  position: relative;
+}
+.section__main_first {
+  margin: 5rem 0rem;
+}
+.section__main_first h3 {
+  font-size: 5rem;
+  font-weight: 800 !important;
+  font-family: "Inter", sans-serif !important;
+}
+.section__main_first h3 span {
+  color: rgb(12, 50, 154);
+}
+.section__main_first p {
+  font-size: 1.8rem;
+}
+.section__main_first .list-style span {
+  font-size: 1.7rem;
+}
+
+.list-style {
+  padding: 0;
+  margin: 0;
+}
+.list-style li {
+  color: rgb(47, 48, 47);
+  font-weight: 600;
+  list-style: none;
+  font-size: 1.5rem;
+}
+.list-style li .fa-check {
+  color: green;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=main.css.map */
