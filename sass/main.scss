@@ -6,7 +6,7 @@
 
 
 
-
+ 
 
 // hero section
 //  
@@ -23,21 +23,50 @@
         // font-family: "Roboto", sans-serif;
         font-family: "Inter", sans-serif !important;
         span{
-            color: rgb(12, 50, 154);
+            color: rgb(224, 68, 11);
         }
       }
       p{
         font-size: 1.8rem;
+        width: 90%;
       }
     
     .list-style {
-        span{
-            font-size: 1.7rem;
+        li{
+            i{
+              padding: 0.7rem 0.5rem;
+            }
         }
     }
-    }
+    } 
+    &__main_second{
+        img{
+            width: 80%;
+            height: auto;
+        }
+    }  
 
-}  
+} 
+#logo-img{
+    background-color: rgba(17, 17, 17, 0.713);
+    border-radius: 1rem;
+      transition: all 1s;
+    
+    &:hover{
+        box-shadow:1px 1px 10px rgba(223, 223, 223, 0.775) ;
+        transition: all 0.5s linear;
+
+    }
+}
+.btn-gap{
+    button{
+            font-size: 1.6rem ;
+            padding: 0.8rem 1.8rem;
+        } 
+    button:last-child{
+        margin-left: 1rem;
+    }        
+    } 
 .list-style{
     padding: 0;
     margin: 0;
