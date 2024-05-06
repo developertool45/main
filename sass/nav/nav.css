@@ -19,11 +19,23 @@ nav .dropdown-menu {
   background-color: rgba(28, 55, 110, 0.88) !important;
 }
 nav .dropdown-menu .dropdown-item {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+}
+nav .dropdown-menu .dropdown-item:hover {
+  color: rgb(209, 205, 205);
+  background-color: rgba(30, 51, 118, 0.6);
+  border-radius: 3px;
+}
+nav .nav-item a {
+  border-bottom: 2px solid transparent;
+  transition: border 0.5s ease;
+}
+nav .nav-item a:hover {
+  border-color: orange;
 }
 nav li a {
   color: rgba(255, 255, 255, 0.8156862745) !important;
 }
 nav li a:hover {
-  color: rgba(255, 243, 18, 0.828) !important;
+  color: rgba(208, 208, 203, 0.828) !important;
 }/*# sourceMappingURL=nav.css.map */

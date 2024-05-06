@@ -1,4 +1,4 @@
-$nav_color:rgba(28, 55, 110, 0.88);
+$nav_color: rgba(28, 55, 110, 0.88);
 
 
 nav {
@@ -12,26 +12,51 @@ nav {
         width: 7rem;
         height: auto;
     }
+
     button {
         font-size: 2rem;
     }
+
     .dropdown-menu {
         position: relative;
         top: 4.4rem !important;
         padding: 1rem;
         background-color: $nav_color !important;
+        
+        
+
+
         .dropdown-item {
-            font-size: 1.6rem;
+            font-size: 1.4rem;  
+            
+            &:hover{
+                color: rgb(209, 205, 205);
+                background-color:#1e337699;
+                border-radius: 3px;
+               
+            }
         }
     }
-
+.nav-item{
+    a{
+        border-bottom: 2px solid transparent;
+        transition: border .5s ease;
+    }
+    a:hover{
+      
+       border-color: orange;
+    }
+}
     li {
         a {
             color: #ffffffd0 !important;
+            
         }
 
         a:hover {
-            color: rgba(255, 243, 18, 0.828) !important;
+            color: rgba(208, 208, 203, 0.828) !important;
+            
+           
         }
     }
 }
