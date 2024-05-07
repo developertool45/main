@@ -28,15 +28,19 @@ footer {
             text-decoration: none;
             font-size: 1.5rem;
             transition: all 0.5s;
+            
         }
         a:hover{
             color: $hovercolor;
             padding-left: 1rem;
             transition: all 0.5s;
+            
         }
     }
     .footer-list{
         padding: 1.2rem;
+        
+
     }
 
 }
