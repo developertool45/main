@@ -1,12 +1,8 @@
-@import "./fonts/fonts.css";
-@import "./global/global.css";
-@import "./nav/nav.css";
-@import "./footer/footer.css";
-@import "./nav/nav.css";
-
-
-
-
+@import "./fonts/fonts";
+@import "./global/global";
+@import "./nav/nav";
+@import "./footer/footer";
+@import "./nav/nav";
 
 // hero section
 //  
@@ -69,8 +65,9 @@
     button {
         font-size: 1.6rem;
         padding: 0.8rem 1.8rem;
+      
     }
-
+    
     button:last-child {
         margin-left: 1rem;
     }
