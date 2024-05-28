@@ -1,7 +1,7 @@
 $listColor : rgb(225, 220, 220);
 $hovercolor: rgba(255, 224, 47, 0.849);
-$header_footer_color:rgb(47 102 212);
-$footer-color-last : rgba(28, 55, 110, 0.88);
+$header_footer_color:#374f7f;
+$footer-color-last : rgba(42, 42, 42, 0.88);
 
 footer {
     background-color: $header_footer_color;
@@ -57,6 +57,7 @@ footer {
             p{
                 color: rgb(220, 225, 225);
                 font-size: 1.6rem;
+                text-align: center;
                 a{
                     text-decoration: none;
                     color: rgb(78, 245, 234);
